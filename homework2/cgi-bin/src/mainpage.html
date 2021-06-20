@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <title>Title</title>
+    <style>
+        <!-- STYLE -->
+    </style>
+</head>
+<body>
+<div class="main-block">
+    <div class="main-block-hat">
+        <div class="ava" style="background-color: <!-- AVA -->"></div>
+        <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/1280px-Twitter_bird_logo_2012.svg.png" alt="" style="width: 100px">
+        <form action="/cgi-bin/wall.py">
+            <button class="hat-button" value="Выйти" name="action"> Выйти </button>
+        </form>
+    </div>
+    <div class="post-block">
+        <form class="post-form" action="/cgi-bin/wall.py">
+            <div class="text-block">
+                <textarea name="text" id="text-holder" placeholder="Написать..."></textarea>
+            </div>
+            <div>
+                <input class="send-text-button" type="submit" value="Отправить" name="action" aria-required="true">
+            </div>
+        </form>
+    </div>
+    <div class="posts-list">
+        <!-- POSTS -->
+    </div>
+</div>
+
+</body>
+</html>
